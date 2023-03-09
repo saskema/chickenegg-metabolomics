@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT353.578S" endTime="PT353.578S">
+    <parentFile fileName="file:///C:\raw/M399T336_NP_pos_CE_20.raw"
+                fileType="RAWData"
+                fileSha1="f0433ff01bebce4383a15c7049306bd8cb13edcb"/>
+    <msInstrument msInstrumentID="1">
+      <msManufacturer category="msManufacturer" value="Thermo Fisher Scientific"/>
+      <msModel category="msModel" value="Thermo Electron instrument model"/>
+      <msIonisation category="msIonisation" value="electrospray ionization"/>
+      <msMassAnalyzer category="msMassAnalyzer" value="fourier transform ion cyclotron resonance mass spectrometer"/>
+      <msDetector category="msDetector" value="inductive detector"/>
+      <software type="acquisition" name="Xcalibur" version=""/>
+    </msInstrument>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <dataProcessing centroided="1">
+      <software type="processing" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="peak picking"/>
+      <comment>Thermo/Xcalibur peak picking</comment>
+      <comment>ms levels: [1,2]</comment>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="1"
+          msLevel="2"
+          peaksCount="55"
+          polarity="+"
+          retentionTime="PT353.578S"
+          collisionEnergy="20.0"
+          lowMz="54.31322479248"
+          highMz="399.328094482422"
+          basePeakMz="399.3280942"
+          basePeakIntensity="56709.241999999998"
+          totIonCurrent="2.0546625e05"
+          msInstrumentID="1">
+      <precursorMz precursorIntensity="0" activationMethod="HCD" windowWideness="1.0">399.329803466797</precursorMz>
+      <peaks compressionType="zlib"
+             compressedLen="545"
+             precision="64"
+             byteOrder="network"
+             contentType="m/z-int">eJwlk19IU3EcxZeljNlAfMiyHpKFGKXOQeBDf24yp+CKTbu4msllMxTGJIW5+5JtWro1zZtspkSxChwYmGhikZBJowcffMleghhFQfZQkBH4MOJ+fk+Hc77ne86X3+VKLVVlawaDQYqt7gedRQGDjglzA+iMmyI6ajdq4ReMAXzTdc/SOl40BdEXl2bhrtqYQl5eAl3OvUfh0V18bvUzvvtz5RHBd3M6btS8xOdebiI/btxBd2ejYKqpA71tZ5Pc0cYyScdL9kFyJgotcLnQii/VeJU9+fxH+Hdzml7ZEQXvdCpiPmTmrneBdjEfsaKni23cI/86BI8/SsHbsxH8mvyQPo9rD/0PjpxVBLehz5xpg192nGBvzLgt+Iubov9bH/qVbBh/zFvHnV6HSv49Xz1+7/omfHKxlDs6qkxiv7eA/U7Hdfa0g5XoSsVr+NjGArlKwxq61jwu+NcV8T36wuT5LKfIn6ooYO7rj9Ob8HlA/8lu9FHLG3z+qXXyY9v16F1dq+jj5mb0a/5X6InTt+ntSUu8T7zUAPZ8aaX/cb4aHhjZEu/1aZ6+YKYEnPxRzn7w/XHmyZxMT+9QDXdrJcfY77+1xPzuh278Iav4/snqJ/hCNjt5SU+e/ZD9AHx59il8wDVBznP7MPrAcAScmR9kP7y1j/xMSzG5au4f96crZfrU3yv43rYeFvxPEXx6Tvw/6t9z8J8LGX3/PwgA3ok=</peaks>
+    </scan>
+  </msRun>
+  <index name="scan">
+    <offset id="1">1601</offset>
+  </index>
+  <indexOffset>3073</indexOffset>
+  <sha1>63eed035e4eed6367c9803ede64312930cc735af</sha1>
+</mzXML>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT163.008S" endTime="PT163.008S">
+    <parentFile fileName="file:///C:\Spektren/M135T164_HI_pos_CE_40.raw"
+                fileType="RAWData"
+                fileSha1="bbbe6fea9e360c63e6596acc95da918dde5c1705"/>
+    <msInstrument msInstrumentID="1">
+      <msManufacturer category="msManufacturer" value="Thermo Fisher Scientific"/>
+      <msModel category="msModel" value="Thermo Electron instrument model"/>
+      <msIonisation category="msIonisation" value="electrospray ionization"/>
+      <msMassAnalyzer category="msMassAnalyzer" value="fourier transform ion cyclotron resonance mass spectrometer"/>
+      <msDetector category="msDetector" value="inductive detector"/>
+      <software type="acquisition" name="Xcalibur" version=""/>
+    </msInstrument>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <dataProcessing centroided="1">
+      <software type="processing" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="peak picking"/>
+      <comment>Thermo/Xcalibur peak picking</comment>
+      <comment>ms levels: [1,2]</comment>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="1"
+          msLevel="2"
+          peaksCount="89"
+          polarity="+"
+          retentionTime="PT163.008S"
+          collisionEnergy="40.0"
+          lowMz="51.023686679714"
+          highMz="153.638825664452"
+          basePeakMz="71.176522857959"
+          basePeakIntensity="2064.093317890539"
+          totIonCurrent="1.265584773406e05"
+          msInstrumentID="1">
+      <precursorMz precursorIntensity="0" activationMethod="HCD" windowWideness="1.0">135.096893310547</precursorMz>
+      <peaks compressionType="zlib"
+             compressedLen="1137"
+             precision="64"
+             byteOrder="network"
+             contentType="m/z-int">eJwlk3kwnHcYxxcrNJEGE4a2xtESQUaIo+LIE8eoI85lF7v7HhtnNo4ySkWI3Y1Q1ziixOgKnWxrJzQlBLmsVBrR6aYGyUQFyU7ShEkwMkNmUp73z898n/d7/GZeCJHoOwTxf4eGlb+fsVgsCBkfMnXYSgOiZfedHQ5lFdOpekvArzO3QpbpVbv/YQc1mRV4H/qjdmhVpAHQimvkDoeJw+W2neZAKR7ADofrZfudm46DvOzxUuT3N+8f8joMpflK1E/oWE+qsqKBgBn0O/HIPlB58wMQJRGYF2G/GMFVhwGlT6J/ZKH3gKvsPZCjx1nIEu2m4nIVpGsGGW4Rf7Oc1gX0rBlzv+rU6Gb0BoiPXMyP3DAwMPbdC4J6XdwX5V9mVuOjgda1IDly2Y0qYqIa6Ht12CdKop1zi/oFUoouon9UW/Zml90mCOEuo6vKvr3dOgDkwOe4J9qIU/SrTgBQchHq0b0fDo9qZYKg/SLDY1uKuok6ED3Pwn3REy4p88a5UHnqRSnD4XblRZdBbuWM/WIynnfOLE4B5X6F4VxhoqLwJRDJHtgnpqmqVWM4DpR1H/aPGf5zyZgNQNl6oV+M5mNe3/HbICpKY+43lg28zy7DyUFjzI+1fHha+cMKiAS92C/2eLzGJ3gGyEEn9Iv1Ly4z/WceaM9GzI/tHm4drOSDSGzG6KpSSWO8AkQaS9zP0XFpTsi/ClIbE5LhflvxYxnIXv/M6IYhe7xe6gO5MI95nMDPegoOiYFSxTJMcCwKlUeBKnRFf86Fd4tjT0aAn1vN8FxvzzpxAMiSXPSLH4nTjN9pAqGkDffEq860i13q4Sd6FfO5OtdsG3oz4fshX7znBvRsTkc83d4nRD9uiFO30FwJZJcH5nOlDrK3iiEQKbxYDL9N/rebD6S1I/pzVfaR7hZKkGt9gv487dmn9zsigFKr8X14OrT0TOokiCtJfH+eu09gZbsJUF0Z6McLWAs3VWogLUWN+TxhjcpEwtn+Xw4y91J+nQ6dCnI9V+zDGxtLC9uIh2LvdOQEi0vnR2aDgJjwxz0JL/r2+QZfALLKE/MT/ee+oGoa4VzLNN4nSp2PbXh8BaU2/dg38Z4xu4tvASW7juCeJLZhrfeNd9Bcs4B6km4B+7uieiBDz+L3SYH5k8VTu0D6YINhju2qG7sbSPYc5idJDDz/e7UH6MePMJ9/8EuXOc9goA4cQV3gkGx/fv0NiBb+Ql1Aezb32oUAqe7EPEHmKcma2TAQ5Tb4PgLJ/BO1VRTUFjD/t0DqSKyXrgF91BLfSzAm0L3UbwbpzrcYv4lXahn9NVA9CbhHyLruZ+uXD+T+WIb3T7bpr6YDdaUC74m7Ka4dVeZAjP6G701ylx9SWRogeDmYRzatOFzvrQfa2x/7kZevWnS8ZkHjSAzuJ5eMnKNF85Da6QgMu2hZ7f0UUtbzUKczju0O67AGsuE05tHP3KMran23+1ijLtrnpY7aYsPJuCnME7nl+MtMUkCg5uz4/Q9/KO2N</peaks>
+    </scan>
+  </msRun>
+  <index name="scan">
+    <offset id="1">1606</offset>
+  </index>
+  <indexOffset>3876</indexOffset>
+  <sha1>525d3e7c3cc159f8443ef9c9321e823efb271125</sha1>
+</mzXML>

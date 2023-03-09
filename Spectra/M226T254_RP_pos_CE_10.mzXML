@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT264.596S" endTime="PT264.596S">
+    <parentFile fileName="file:///C:\raw/M226T254_RP_pos_CE_10.raw"
+                fileType="RAWData"
+                fileSha1="959f1375b4145b0c2d72c46bfff83ddd643244ce"/>
+    <msInstrument msInstrumentID="1">
+      <msManufacturer category="msManufacturer" value="Thermo Fisher Scientific"/>
+      <msModel category="msModel" value="Thermo Electron instrument model"/>
+      <msIonisation category="msIonisation" value="electrospray ionization"/>
+      <msMassAnalyzer category="msMassAnalyzer" value="fourier transform ion cyclotron resonance mass spectrometer"/>
+      <msDetector category="msDetector" value="inductive detector"/>
+      <software type="acquisition" name="Xcalibur" version=""/>
+    </msInstrument>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <dataProcessing centroided="1">
+      <software type="processing" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="peak picking"/>
+      <comment>Thermo/Xcalibur peak picking</comment>
+      <comment>ms levels: [1,2]</comment>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="1"
+          msLevel="2"
+          peaksCount="70"
+          polarity="+"
+          retentionTime="PT264.596S"
+          collisionEnergy="10.0"
+          lowMz="57.034393310547"
+          highMz="243.921371459961"
+          basePeakMz="226.0430979"
+          basePeakIntensity="93609.758000000002"
+          totIonCurrent="2.7179775e05"
+          msInstrumentID="1">
+      <precursorMz precursorIntensity="0" activationMethod="HCD" windowWideness="1.0">226.043395996094</precursorMz>
+      <peaks compressionType="zlib"
+             compressedLen="661"
+             precision="64"
+             byteOrder="network"
+             contentType="m/z-int">eJwtkl1I02EUxvtQAwMrIrqoUNFE8CIrEIKkldPUEhXT1KVbc23TzUoRy0JR99+XgtPUBrJqaVjZF5qS06zlFgldJQlWhFEhRupFFxlaUfu97ubhd57znHP2brLjkm7N/4/MufWCN6AZW16oAmrPOuiGqzWoua8/Ap76gVp3hH8KaGZMFDnHqafMyfREwub4JDh75DU67MymP2fCA0uaBebkRo4yX4pJpZ4bZ68PqMUg5uZVe1Br3wJ+nq+e+wbqQph3Ut4gw3ekMy8/ax3cvG1KJvgA+ebGzeTyJQ25tl4Hewq6z5EzF4TgF/qi8S1r56gXvqyF3dtHYEXwILn+t/upKyxD7On+/Ix6saSAW80dgl9dpq81ZyN55YZHqGtfGt9HaVHid4Qbyal6Esm1py5zj8qXB7sbtLA6vZN884mj5NQlY7AtTfwe6sZS+h2h8byr2jRF/bHhCfPVPWHMsVT+Iqf+0sb79FYewy9Z/wB/5PoNWCPPx7/9p4t7NaZR6i36GcG+YPptdePoGdM0dfubYuZrTSZxz95JclrpHn2dsaXcp+1JoK9pxgvrNt1BLXuWqev8cdx/665f+F/Fu9oWJ7lLP1hFn3U2lLl6X7zw26u4Qz+vJWePEFr61y/ed2mefFlQAjlHxcoqS/gTKd/YWxY1ht80oGJeWdEl5lwxxLLX4Fqh/6EyBN94aCe5m0sXyRkPn6b+872LfuORcfhay29yxqRd1D/IK7yCz/NOzvIgmeA59g3VKES/PBn1L1pXuQX/6rBO5OWT7B2PDhP55N3UW6ffCT/Zy33dcc+Fn1LMPS5zh1vwd/JjThtanpiK2ttnubO8qIZ+R0ai4I85+F0GD3q2Vvzf7yuNAf0HWngosA==</peaks>
+    </scan>
+  </msRun>
+  <index name="scan">
+    <offset id="1">1601</offset>
+  </index>
+  <indexOffset>3230</indexOffset>
+  <sha1>41ef10f8423e7504c028e2e6158dd79bb00d4ba2</sha1>
+</mzXML>

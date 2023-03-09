@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT115.436S" endTime="PT115.436S">
+    <parentFile fileName="file:///C:\Spektren/M87T130_HI_pos_CE_10.raw"
+                fileType="RAWData"
+                fileSha1="fcfb6897da8b20c8e1835969fde13abd47a126bd"/>
+    <msInstrument msInstrumentID="1">
+      <msManufacturer category="msManufacturer" value="Thermo Fisher Scientific"/>
+      <msModel category="msModel" value="Thermo Electron instrument model"/>
+      <msIonisation category="msIonisation" value="electrospray ionization"/>
+      <msMassAnalyzer category="msMassAnalyzer" value="fourier transform ion cyclotron resonance mass spectrometer"/>
+      <msDetector category="msDetector" value="inductive detector"/>
+      <software type="acquisition" name="Xcalibur" version=""/>
+    </msInstrument>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <dataProcessing centroided="1">
+      <software type="processing" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="peak picking"/>
+      <comment>Thermo/Xcalibur peak picking</comment>
+      <comment>ms levels: [1,2]</comment>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="1"
+          msLevel="2"
+          peaksCount="138"
+          polarity="+"
+          retentionTime="PT115.436S"
+          collisionEnergy="10.0"
+          lowMz="50.275989079136"
+          highMz="101.778800581921"
+          basePeakMz="87.092083828354"
+          basePeakIntensity="4.465952697613e07"
+          totIonCurrent="2.902378447209e08"
+          msInstrumentID="1">
+      <precursorMz precursorIntensity="0" activationMethod="HCD" windowWideness="1.0">87.064300537109</precursorMz>
+      <peaks compressionType="zlib"
+             compressedLen="1698"
+             precision="64"
+             byteOrder="network"
+             contentType="m/z-int">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</peaks>
+    </scan>
+  </msRun>
+  <index name="scan">
+    <offset id="1">1605</offset>
+  </index>
+  <indexOffset>4623</indexOffset>
+  <sha1>6cd26996d98af9cf02decd34b216f5b0dc02f20b</sha1>
+</mzXML>

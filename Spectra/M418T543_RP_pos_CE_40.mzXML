@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mzXML xmlns="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://sashimi.sourceforge.net/schema_revision/mzXML_3.2 http://sashimi.sourceforge.net/schema_revision/mzXML_3.2/mzXML_idx_3.2.xsd">
+  <msRun scanCount="1" startTime="PT550.826S" endTime="PT550.826S">
+    <parentFile fileName="file:///C:\raw/M418T543_RP_pos_CE_40.raw"
+                fileType="RAWData"
+                fileSha1="2e819c9ca4cccdfa6bb09d63af096394154eff09"/>
+    <msInstrument msInstrumentID="1">
+      <msManufacturer category="msManufacturer" value="Thermo Fisher Scientific"/>
+      <msModel category="msModel" value="Thermo Electron instrument model"/>
+      <msIonisation category="msIonisation" value="electrospray ionization"/>
+      <msMassAnalyzer category="msMassAnalyzer" value="fourier transform ion cyclotron resonance mass spectrometer"/>
+      <msDetector category="msDetector" value="inductive detector"/>
+      <software type="acquisition" name="Xcalibur" version=""/>
+    </msInstrument>
+    <dataProcessing>
+      <software type="conversion" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="Conversion to mzML"/>
+    </dataProcessing>
+    <dataProcessing centroided="1">
+      <software type="processing" name="ProteoWizard software" version="3.0.22307"/>
+      <processingOperation name="peak picking"/>
+      <comment>Thermo/Xcalibur peak picking</comment>
+      <comment>ms levels: [1,2]</comment>
+    </dataProcessing>
+    <scan num="1"
+          scanType="Full"
+          centroided="1"
+          msLevel="2"
+          peaksCount="135"
+          polarity="+"
+          retentionTime="PT550.826S"
+          collisionEnergy="40.0"
+          lowMz="51.299102783203"
+          highMz="418.375610351563"
+          basePeakMz="86.09705961"
+          basePeakIntensity="3.4826497e05"
+          totIonCurrent="1.3092519e06"
+          msInstrumentID="1">
+      <precursorMz precursorIntensity="0" activationMethod="HCD" windowWideness="1.0">418.287200927734</precursorMz>
+      <peaks compressionType="zlib"
+             compressedLen="1220"
+             precision="64"
+             byteOrder="network"
+             contentType="m/z-int">eJw1lX1M1AUcxu1Mk618ScyyaMgBwZhFos0MEvDCECoIRAIOj3vhFLRpLd0MBTzg4ADhAJFEDIGDlOkQYVABKufl23ThS+UsUY4XX0bO+YfpJtR9vot/nj3f7/M83+f3uwNCI5sjp/z3E2qZ4RbqwtX5L9W7cPdATo4Lo3YZwPruOvZR5pns+7Izb7kwOmQQbmn+WgMvHIfnFRzCF100CzzhYWQe/ddcfKUBo+RFP1h20oXF5ws9XRgTng9WXzzMPsaej9759CAYq0pnXr7VlCM8H//VXD/hWR/BL5y9wL1YeyD6yk0rmcc6CujZneILj7Pn8fy/9VwA41XCnbNXo4vPHASLs65xP94eSL+K8hww3pEH9k60gWtUcu/YBwPgmoh88r5zWyzcNERP68fFwgvec2HYvLBG8hNeWEqvilMZ5CXYc7l/L2EEvlaVCzpfe4R/rf1t9rZ3PwHXOkR/28eXu4kq2XcGlZGbGGEC9/tuw58YM433ZA0yiz7mHfjeBfe5k+hYRK/yKQ/hXyjH8BVN3oEnhQ/DrWn38CepspmPLjzJcyaZFoJlrWXokuwB3K/63Ch6x07yr9SG4UtWLUJXE2GgR3JENn77s3h8yQ5/9LUPynmulOdvgtafpzNPMRWjszjU+FPyupiXPlTLvj+PfVv7fPHbs8Wftow+asVP3Kv44Qk6tSoLful+OP3Ujixyxh610jNVFYB/91tV+FMjsuDXY7y4n+rwh++LE3/qmR3obN2Svy5UQU7tjyHguogAdBWRr8r+zC3mJaMGuOa5Ce7XRE6nl8YrhPyzLWZ8Gm0PuuurluDT7KpmX9mVjU9jWsl81DOPuaYxhD53VPL91wxVsu/23Sl+Zy93+t5Uo09TzmZ+4OgvzNO8VzCvWXCM503r38H9SoPkpQ1Jn4Ejf7PXKibpWfLKV/TRKoPxX87uQK9NnUGu5cBj7mi1VejrlfNkr5O8Kzke4q8/xbz6YrvkN7qDnSHXRN8UTM7BUXd82iEj+ce354jfWcX90rYj6HUKE7jvD/ne6qZugVvDckOFN8GLZsXi160cR1e3eBV3ddUD9DUr0kFdYzC6857Jwi9/i9/8u5/onb3knnAGodMr5e9ja8eAcG/5fOzmEXrq/a6iLzq1GL9eZyV3f+EKdHp9D/s6ZyOob7hLv+YWT1Bvu8F7KLx0GtTbp+FrCM4CDV593O2dfMzeoJTcPR065oZw8dv+0dLH8P/n8WeC8KYV3O06GMs9g9PKvqP1sPiH5Xn72orZp/uEkt849iL+dN0m9nt7R2RvKsBvNZ9mnu7sA2t+jeP5jYpE/PXXlpNv9Jbfo3OH45gb9fI8LeoY3pOx6WWwffvr5BptwfCe7+9yf/3UcHKPamYyX69Mpcf+pQng+uEeco/N2cCdDT4h8n5vvi/c0Me+/41B8jfY5oPlg5Nghr8bfUou5eLLsMn7avi0mnnGyEnu7on+DJ7pG4mv5JtAemV2yv9hy66N9N1Y+4y55cgt4SN16MtUB+jxZXo/80OJc4W3fMjdVs/T+DbPiWJuWfZUeFAU+S3uTzyF34ZXTwyj23xF8o831NFvy6NzoO36OPOt227gK8pYgn67r4J7Rz2Wu3r8C5UVQ6I=</peaks>
+    </scan>
+  </msRun>
+  <index name="scan">
+    <offset id="1">1601</offset>
+  </index>
+  <indexOffset>3970</indexOffset>
+  <sha1>d6e0e6baed36bf136d587e48b1574bf74f961227</sha1>
+</mzXML>
